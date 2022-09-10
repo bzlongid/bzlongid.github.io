@@ -1,0 +1,114 @@
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/potions-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 700px;
+	padding: 5%;
+    margin: 100px auto;
+ 	background: rgba(80, 47, 94, 0.452); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px double white;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: left;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: mason-serif,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: mason-serif,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: neuzeit-grotesk,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+
+nav {
+	margin: 20px;
+  }
+   
+  ul {
+	overflow: auto;
+	list-style-type: none;
+  }
+
+  li:first-child {
+	margin-left: 120px;
+  }
+
+  li {
+	height: 25px;
+	float: left;
+	margin-right: 0px;
+	border-right: 1px solid #aaa;
+	padding: 0 30px;
+  }
+   
+  li:last-child {
+	border-right: none;
+  }
+   
+  li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: neuzeit-grotesk,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+	width: 400px; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	text-align: center;
+  }
+   
+  li a:hover {
+	color: rgb(254, 255, 199);
+  }
+   
+  li.active a {
+	font-weight: bold;
+	color: rgba(204, 0, 255, 0.685);
+  }
